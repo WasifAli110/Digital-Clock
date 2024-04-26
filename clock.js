@@ -52,9 +52,3 @@ function watch() {
     document.getElementById("dayprint").innerHTML = `${weekday}, ${month} ${day}, ${year}`;
   }
   setInterval(watch,1000)
-  
-    document.getElementById("timeprint").innerHTML = `${hours}: ${minutes}: ${seconds} ${session}`;
-    document.getElementById("dayprint").innerHTML = `${weekday}, ${month} ${day}, ${year}`;
-  }
-  setInterval(watch,1000)
-  
